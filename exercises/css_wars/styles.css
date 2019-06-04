@@ -1,0 +1,24 @@
+body {
+    background-color: #111111;
+}
+
+h1 {
+    color: #E2E80F;
+    text-align: center;
+    text-size-adjust: 40px
+}
+
+p {
+    color: #eeeeee
+}
+
+span {
+    color:#49DAFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p.film-description {
+    font-size: 12px;
+    font-style: italic
+}
