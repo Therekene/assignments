@@ -1,0 +1,15 @@
+h1{
+    text-align: center
+}
+
+#box{
+    border: solid;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    box-shadow: 
+}

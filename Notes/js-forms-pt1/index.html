@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Example 1 using ID's  (not the preferred method) -->
+        <!-- <input type="text" id="my-input">
+        <button id="my-button">Click Me</button> -->
+
+    <!-- Example 2 using forms and "name" attributes (preferred method) -->
+    <form name="myForm">
+        <input type="text" name="firstName">
+        <button>Click Me</button>
+    </form>
+
+    <div id="list">
+
+    </div>
+
+
+
+    <!-- 
+        EXAMPLE OF HOW TO SET UP HTML CALCULATOR ASSIGNMENT
+     -->
+    
+        <!-- Addition Input Form -->
+        <form name="addForm">
+            <input type="text" name="firstNum">
+            <input type="text" name="secondNum">
+            <button>Click Me</button>
+        </form>
+        <!-- Div for Addition Output so user can see the added total -->
+        <div id="add-output">
+
+        </div>
+
+        <!-- Subtraction Input Form -->
+        <form name="subtractForm">
+            <input type="text" name="firstNum">
+            <input type="text" name="secondNum">
+            <button>Click Me</button>
+        </form>
+        <!-- Div for Subraction Output so user can see the subracted total -->
+        <div id="subtract-output">
+
+        </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
