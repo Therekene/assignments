@@ -1,0 +1,17 @@
+#header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: moccasin;
+    justify-content: center;
+    text-align: center;
+}
+
+a:link {
+    color: moccasin;
+    text-decoration: none;
+    font-size: 3vh;
+    text-size-adjust: auto
+}
+a:visited{
+    color: moccasin
+}

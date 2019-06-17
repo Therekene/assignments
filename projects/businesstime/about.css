@@ -1,0 +1,114 @@
+#header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: moccasin;
+    justify-content: center;
+    text-align: center;
+    background: url(./ninja.jpg) no-repeat center top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    height: 28em;
+    z-index: -1;
+    
+}
+#title {
+    position:absolute;
+    top: 7em;
+    left: 4em;
+    color: white;
+    z-index: 2;
+}
+
+a:link {
+    color: moccasin;
+    text-decoration: none;
+    font-size: 3vh
+}
+a:visited{
+    color: moccasin
+}
+#pagediv {
+    text-align: center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid : repeat(5, 1fr);
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
+}
+#ninja {
+    height: 30%;
+    width: 90%;
+    background-color:black;
+    /* grid: 2/5;
+    grid-row: 1/3; */
+
+
+}
+#training {
+    float: left;
+    grid: 1/2;
+    display: inline;
+}
+
+#paragraph {
+    display: inline;
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 320px)and (max-width:1200px){
+
+    #header {
+        display: block;
+        font-size: 14px;
+        color: moccasin;
+        justify-content: center;
+        text-align: center;
+        background: url(./ninja.jpg) no-repeat center center ; 
+        /* -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; */
+        background-size: cover;
+        padding: 20px;
+        z-index: -1;
+
+    }
+
+    #header > a {
+        display: block;
+    }
+
+
+
+/* @media only screen and (min-width: 320px)and (max-width:700px){
+
+    #header {
+    display: block;
+    grid-template-columns: repeat(4, 1fr);
+    color: moccasin;
+    justify-content: center;
+    text-align: center;
+    background: url(./ninja.jpg) no-repeat center top center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* height: 20px; */
+    z-index: -1;
+    
+    } */
+
+    /* #paragraph {
+        display: inline;
+    }
+
+    #title {
+        position: sticky
+        top: 7em;
+        left: 4em;
+        color: moccasin;
+        z-index: 2; */
+    }
+
+}   }

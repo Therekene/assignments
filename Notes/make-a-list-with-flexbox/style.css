@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Flex container so that all of the divs we put on the dom are flex children */
+#list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make all the divs flex boxes as well so they can perfectly center the <h1> tags inside of them */
+#list-container > div {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

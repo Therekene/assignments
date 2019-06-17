@@ -1,0 +1,17 @@
+#add {
+    background-color: aqua;
+    padding: 50px;
+    text-align: center;
+}
+
+#subtract {
+    background-color: blue;
+    padding: 50px;
+    text-align: center;
+}
+
+#multiply {
+    background-color: rebeccapurple;
+    padding: 50px;
+    text-align: center;
+}

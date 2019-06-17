@@ -1,0 +1,55 @@
+#divcontainer{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    width: 900px;
+    border: 1px black;
+    
+}
+
+.box{
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    box-shadow: 10px 10px 5px 0 #999;
+    border-radius: 10%;
+    border: 1px black;
+    padding: 30px;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-duration: 1s
+
+
+
+}
+
+
+#box1:hover{
+    background-color: blueviolet;
+
+}
+
+#box2:hover{
+    background-color: firebrick;
+    border-radius: 50%
+}
+#box3:hover{
+    background-color: cadetblue;
+    opacity: 0
+
+}
+#box4:hover{
+    background-color: deeppink;
+    
+}
+#box5:hover{
+    background-color: gold;
+    width: 600px;
+    height: 600px;
+}
+#box6:hover{
+    background-color: orange;
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+/* MOBILE */
+
+#title {
+    background-color: dodgerblue;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+/* TABLET */
+@media only screen and (min-width: 700px) {
+    
+    #title {
+        background-color: green;
+        padding: 0;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1100px){
+
+    #title {
+        background-color: firebrick;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+}

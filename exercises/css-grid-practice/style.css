@@ -1,0 +1,88 @@
+#section1 {
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-row: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50vh;
+    font-display: none;
+    padding: 10px;
+    grid-gap: 10px;
+    
+}
+
+#red {
+    background-color: red;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border: 10px;
+    border-color: white
+}
+
+#blue {
+    background-color: blue;
+    grid-column: 3/6;
+    grid-row: 1/2;
+}
+
+#green {
+    background-color: green;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#purple {
+    background-color: purple;
+    grid-column: 2/6;
+    grid-row: 2/3;
+}
+
+#yellow {
+    background-color: yellow;
+    grid-column: 1/6;
+    grid-row: 3/4;
+}
+
+#section2 {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-row: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50vh;
+    font-display: none;
+    padding: 10px;
+    grid-gap: 10px;
+    
+}
+
+#redish {
+    background-color: red;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    border: 10px;
+    border-color: white
+}
+
+#blueish {
+    background-color: blue;
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+
+#greenish {
+    background-color: green;
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+
+#purpleish {
+    background-color: purple;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#yellowish {
+    background-color: purple;
+    grid-column: 4/5;
+    grid-row: 3/4;

@@ -1,0 +1,19 @@
+{
+    "menu":{
+        "appetizers":[
+            {
+            "name": "cheesefries",
+            "ingredients": ["cheese", "potatoes"],
+            "description": "fries with cheese"
+            }
+            {
+                "name": "onion blossom",
+                "ingredients":["onion", "fried bread"],
+                "description": "fried onion cut into a flower. yum."
+            }
+            {
+                "name": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+#introcontainer {
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+#introtext {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#intropar {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255, .2)
+}
+
+#intro {
+    height: 550px;
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+body{
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+}
+
+#formdiv {
+    columns: 3;
+}
+
+.baddieb {
+    cursor: url(Mario.jpeg);
+    background-color: rgba(0,0,0, .0);
+    border: 0px;
+}
+
+#coin {
+    width: 40px;
+    height: 40px;
+}
+
+#bobombdiv {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#bombpic{
+    width: 128px;
+    height: 128px;
+}
+
+h2 {
+    display: inline;
+}
+
+#total {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px
+}
+
+#totalcoin {
+    font-size: 60px
+}

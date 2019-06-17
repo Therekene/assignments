@@ -7,27 +7,34 @@
 <body>
 
     <div id="add"> 
-        <form name = "addForm" onsubmit= "addFun(this.addin1, this.addin2)" >
-        <input type = "number" name = "addin1">
-        <input type = "number" name = "addin2">
-        <button id = "addButton" type = "submit"> Add </button>
+        <h1>Add</h1>
+        <form name = "addForm" >
+        <input type = "number" id = "addin1">
+        <input type = "number" id = "addin2">
+        <button id = "addButton" type = "button"> Add </button>
          </form>
-   
+        <div id="sumadd"></div>
 
     </div>
 
-    
-    
-    <div id="subtract"></div>
-    
-    
-    
-    
-    <div id="multiply"></div>
+    <div id="subtract"> 
+        <h1>Subtract</h1>
+        <input type = "number" id = "subin1">
+        <input type = "number" id = "subin2">
+        <button id = "subButton" type = "button"> Subtract </button>
+        <div id="sumsub"></div>
 
+    </div>
     
-    
-    
+    <div id="multiply"> 
+            <h1>Multiply</h1>
+            <input type = "number" id = "multin1">
+            <input type = "number" id = "multin2">
+            <button id = "multButton" type = "button"> Multiply </button>
+            <div id="summult"></div>
+
+    </div>
+
     <script src="app.js"> </script>
 </body>
 </html>
