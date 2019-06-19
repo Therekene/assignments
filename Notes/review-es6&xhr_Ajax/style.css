@@ -1,0 +1,14 @@
+.todo-container {
+    border: 1px solid black;
+    margin: 5px 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.todo-container p:nth-child(1){
+    color: blue
+}
+
+.todo-container p:nth-child(2){
+    color: red;
+}
