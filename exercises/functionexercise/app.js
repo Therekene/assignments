@@ -13,5 +13,8 @@
 // var sum = add (4, 5, 6)
 // console.log(sum)
 
-function evenOdd(numOne)
-
+function evenOdd(numOne){
+   if (numOne %2 ==0){
+       console.log (`even number`)
+   } else console.log (`odd number`)
+}

@@ -1,0 +1,17 @@
+.title{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline overline lavender;
+    color: purple;
+    background-color: black;
+    padding: 30px;
+
+}
+
+.namebox{
+    border: darkslateblue 4px solid;
+    padding: 20px;
+    background-image: radial-gradient(farthest-corner at 40px 40px,
+      #f35 0%, #43e 100%);
+      border-radius: 30px
+}

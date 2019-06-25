@@ -1,0 +1,32 @@
+.todosImg{
+    height: 300px;
+    width: 300px;
+
+}
+
+.listDiv{
+    border:2px solid black;
+    display: inline-table;
+    padding: 10px;
+    align-content: center;
+    opacity: .5;
+    text-align: center;
+    border-radius: 10px;
+    background-color: khaki;
+    
+
+}
+body{
+    background-color: whitesmoke
+}
+
+:hover{
+    opacity: 1;
+}
+
+#formdiv {
+    padding: 20px;
+    background: cornflowerblue;
+    text-align: center
+}
+
