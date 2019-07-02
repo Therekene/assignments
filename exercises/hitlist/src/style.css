@@ -1,0 +1,24 @@
+.targetdiv {
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border-radius: 13px;
+    color: maroon;
+    text-align: center;
+    border-style: outset;
+    border-width: 5px;
+
+    
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    text-decoration: underline;
+    
+
+}

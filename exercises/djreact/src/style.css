@@ -1,0 +1,82 @@
+.title {
+    color: yellow;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: purple 20px 20px 5px;
+    /* text-decoration: underline wavy #009966 */
+}
+
+.box {
+    border: solid black 5px;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: #009966 20px 20px 20px
+}
+
+.boxContainer{
+    display: flex;
+    justify-content: center
+}
+
+body{
+    background-image: repeating-radial-gradient(circle, yellow 10px, #009966, purple 50px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+button:focus{
+    outline:0
+}
+button {
+    box-shadow: yellow 10px 10px 10px;
+    color: yellow;
+    background: #009966;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 90px;
+    margin: 100px auto;
+    
+    
+}
+
+.btndiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.standard {
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+    
+
+}
+.houdini{
+    opacity: 0;
+    transition-duration: 1s
+}
+
+.trippy {
+    background-image:repeating-radial-gradient(circle, yellow 10px, #009966, purple 50px);
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out
+    
+}
+
+.phase1 {
+    background-image:repeating-radial-gradient(circle, yellow 10px, #009966, purple 50px);
+    transition-duration: 2s
+}
+.phase2 {
+    background-image:repeating-radial-gradient(circle, purple 10px, yellow, #009966 50px);
+    transition-duration: 2s
+}
+
+.phase3 {
+    background-image:repeating-radial-gradient(circle, #009966 10px, purple, yellow 50px);
+    transition-duration: 2s
+}

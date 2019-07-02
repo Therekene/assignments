@@ -5,7 +5,7 @@ const Pet = props => {
     return (
         <div>
             <h3>Pet name: {props.petsName}</h3>
-            <p>{props.petsBreed}</p>
+            <p>Pet breed: {props.petsBreed}</p>
         </div>
     )
 }

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+nav {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    font-weight: lighter;
+    background-image: linear-gradient(to bottom right, rgba(137, 157, 184, 0.582), rgb(8, 52, 110));
+    align-items: center
+
+}
+
+nav > a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    padding: 40px;
+}
+
+.homeinner {
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+
+}
+.aquarium {
+    float: left;
+    
+}

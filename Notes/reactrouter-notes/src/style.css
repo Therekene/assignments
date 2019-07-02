@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+.home {
+width: 100vw;
+height: 100vh;
+background-color: dodgerblue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.about {
+width: 100vw;
+height: 100vh;
+background-color: firebrick;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.contact {
+    width: 100vw;
+    height: 100vh;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > a {
+    text-decoration: none;
+    font-family: sans-serif
+}
