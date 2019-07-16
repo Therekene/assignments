@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+}
+
+.main {
+    padding: 12px;
+    font-size: 30px;
+
+}
+
+.main-light {
+    color: darkslategrey;
+    background-color: coral;
+
+}
+
+.main-dark {
+    color: whitesmoke;
+    background-color: darkgreen;
+}

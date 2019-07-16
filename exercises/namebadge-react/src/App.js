@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { newExpression } from '@babel/types';
-
+import Forms from './Forms.js'
 
 class App extends Component {
     constructor() {
@@ -26,9 +25,10 @@ class App extends Component {
             birthPlace: this.state.birthPlace,
             phone: this.state.phone,
             favoriteFood: this.state.favoriteFood,
-            about: this.state.about
-
+            about: this.state.about,
+            
     }
+    
         this.setstate (...prevState => ({
             fName: "",
             lName: "",
@@ -53,72 +53,45 @@ class App extends Component {
 
  
     render() {
-        const mappedArray = this.state.array.map((info,i) => {}
-            return(
-                                                    key = {i}
-                                                    fName = {info.fName}
-                                                    lName = {info.lname}
-                                                    birthPlace = {info.birthPlace}
-                                                    email = {info.email}
-                                                    phone = {info.phone}
-                                                    favFood = {info.favFood}
-                                                    about = {info.about}
-        
-        
-        )
+
+        //.map has to be done in render (workspace)
+ 
+        const mappedNewPeople = this.state.array.map((info, i) => {
+            return (
+                <div className="container">
+                     <div className="mapDiv" key={i}>
+                         <h1>Name: {info.fName} {info.lName}</h1>
+ 
+ 
+                            <p>Email: {info.email}</p>
+                            <p>Phone number: {info.phone}</p>
+                            <p>Favorite food: {info.favFood}</p>
+                            <p>About: {info.about}</p>
+                    </div>
+                </div>
+            )
+ 
+        })
+ 
+ 
         return (
-            <div>
-                <form onSubmit = {this.handleSubmit}>
-                    <input 
-                        value={this.state.fName}
-                        name= 'fName'
-                        type='text'
-                        onChange={this.handleChange}
-                        placeholder='First Name' />
-                    <input 
-                        value={this.state.lName}
-                        name='lName'
-                        type='text'
-                        onChange={this.handleChange}
-                        placeholder= 'Last Name' />
-                    <input 
-                        value={this.state.email}
-                        name='email'
-                        type='text'
-                        onChange={this.handleChange}
-                        placeholder= 'Email'/>
-                    <input 
-                        value={this.state.birthPlace}
-                        name='birthPlace'
-                        type='text'
-                        onChange={this.handleChange}
-                        placeholder= 'Birthplace'/>
-                    <input 
-                        value={this.state.phone}
-                        name='phone'
-                        type='text'
-                        onChange={this.handleChange}
-                        placeholder= 'Phone'/>
-                    <input 
-                        value={this.state.favoriteFood}
-                        name='favoriteFood'
-                        type='text'
-                        onChange={this.handleChange}
-                        placeholder= 'Favorite Food'/>
-                    <textarea 
-                        rows = {20}
-                        cols = {80}
-                        style = {{ resize: 'none'}}
-                        value={this.state.about}
-                        onChange={this.handleChange}
-                        name='about'
-                        placeholder= 'Tell us about yo self!'/>
-                    <button>Submit</button>
-                </form>
-                <h1>${mappedArray}</h1>
+            <div className="appDiv">
+ 
+                <Forms
+                    handleChange={this.handleChange}
+                    handleSubmit={this.handleSubmit}
+ 
+                />
+ 
+ 
+ 
+                <div>{mappedNewPeople}</div>
+ 
             </div>
+ 
         )
+ 
     }
-}
+ }
 
 export default App

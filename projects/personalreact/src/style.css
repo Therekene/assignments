@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.title {
+    color: skyblue;
+    text-shadow: 7px 8px 7px rgb(233, 11, 233);
+}
+
+.drinkBtn {
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.rcpimg {
+    height: 150px;
+    width: 150px;
+}
+
+.navDiv {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.navTitle {
+    color: snow;
+    padding-top: 10px
+}
+.linkDiv > a {
+    display: block;
+    padding: 7px;
+    text-decoration-style: unset;
+    font-display: lighter;
+    color: black
+}
+
+input {
+    height: 20px;
+    width: 300px;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.searchRes {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
+}
+
+.homeDiv {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+       
+}
+.homeRes{
+    color: skyblue
+}
+.homeDiv > a {
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    font-display: lighter;
+}
+.ingDiv {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.inInput {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.ingDiv > a {
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    font-display: lighter;
+}
+
+.randoDiv {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.randoDiv > a {
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    font-display: lighter;
+    color: black;
+
+}
+
+.randoTitle {
+    color: skyblue;
+}
+.recDiv {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding: 60px;
+}
+
+.pageDiv {
+    background-image: radial-gradient(circle, rgb(167, 56, 205), #c13475, purple);
+    min-height: 100vh;
+    max-height: 10000vh;
+    width: 100%;
+
+}
+
+.errmsg {
+    padding: 10px;
+}
+
+.recTitle {
+    color: skyblue;
+
+}
+
+.recIng {
+    color:snow;
+}
+
+.recInst {
+    color: snow;
+}
+
+.ingimg {
+    display : none;
+
+}
+
+.recIngs {
+    color: black
+}
+
+@media only screen and ( min-width:700px ) and (max-width: 4000px){
+    
+    .recDiv {
+        display: normal;
+        justify-content: normal;
+        text-align: left;
+        align-content: left;
+        padding: 60px;
+    }
+
+    
+
+
+}

@@ -1,0 +1,25 @@
+.app {
+
+}
+
+.app-light {
+    background-color: lightblue;
+}
+
+.app-dark {
+    background-color: darkslategray;
+}
+
+.header {
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.header-light {
+    background-color: papayawhip;
+}
+
+.header-dark {
+    background-color: darkmagenta
+}

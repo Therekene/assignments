@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+}
+
+.main {
+    padding: 12px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-light {
+    color: darkslategrey;
+    background-color: coral;
+
+}
+
+.main-dark {
+    color: whitesmoke;
+    background-color: darkgreen;
+}
+
+.navbar {
+    font-size: 40px;
+    display: flex;
+   justify-content: space-evenly;
+    
+}
+
+.navbar-light {
+    color: rgb(200, 243, 7);
+    background-color: azure;
+}
+
+.navbar-dark {
+    color: gold;
+    background-color: darkred;
+}
+
+a{
+    text-decoration-line: none;
+    color: darkcyan;
+    font-size: 25px;
+}   
+
+.a-dark{
+    color: white;
+    font-size: 25px;
+ }
+
+ button:hover {
+    cursor: pointer;
+    background-color: burlywood;
+ }
+ 
+ button:focus {
+    outline: none;
+    border: none;
+ }
+
+ .footer {
+     text-align: center;
+     font-size: 28px;
+ }
+ 
+ .footer-light {
+     color: lightskyblue
+ }
+
+ .footer-dark {
+     color: lightskyblue;
+     background-color: black;
+ }
