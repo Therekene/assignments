@@ -51,13 +51,13 @@ input {
     padding: 10px;
 }
 
-.searchRes {
+/* .searchRes {
     display: block;
     justify-content: center;
     text-align: center;
     align-content: center;
 
-}
+} */
 
 .homeDiv {
     justify-content: center;
@@ -151,20 +151,134 @@ input {
 }
 
 .recIngs {
-    color: black
+    color: black;
+    display: inline;
 }
 
-@media only screen and ( min-width:700px ) and (max-width: 4000px){
+@media only screen and ( min-width:900px ) and (max-width: 4000px){
+
     
+    .navDiv{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+        z-index: 10
+
+
+    }
+    .title-better{
+        width: 60vw;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 70px;
+        color: rgb(247, 242, 1);
+    }
+    .martini-glass{
+        position:absolute;
+        background-image: url('./Image/imageedit_6_3100825224.png');
+        width: 30vw;
+        height: 40vh;
+        right:20vw;
+        top:5vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .title-bartender{
+        font-size: 95px;
+        width: 70vw;
+        line-height: 5px;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
     .recDiv {
-        display: normal;
+        display: inline;
         justify-content: normal;
         text-align: left;
         align-content: left;
         padding: 60px;
     }
 
+    /* .navDiv {
+        font-size: 25px;
+        display: inline;
+        text-align: center;
+        padding: 15px;
+        
+    }
+     */
+    .navTitle {
+        display: none;
+
+    }
+
+    .linkDiv {
+        display: flex;
+        justify-content: center;
+        padding: 30px;    
+    }
+    .linkDiv a{
+        text-decoration: none;
+        margin: 80px 5px;
+        border: 2px solid black;
+        border-radius: 30px;
+        padding: 10px;
+        width: 15vw;
+    }
+    .nmInput{
+        position:absolute;
+        top: 40vh;
+        right:20vw;
+        width:60vw;
+        border:5px solid purple;
+        border-radius: 20px;
+        
+
+    }
+    .homesearch{
+        top: 120vh;
+        margin-top: -150px
+    }
     
+    .searchRes {
+        display: inline-block;
+        padding: 30px;
 
+    }
+    
+    .ingDiv > a {
+        display: inline;
+        padding: 7px;
+        text-decoration: none;
+        font-display: lighter;
+    }
+    
+    .ingimg {
+        display: inline;
+        height: 100px;
+        width: 100px;
+        
+    }
+    .rcpimg {
+        height: 300px;
+        width: 300px;
+        float: left;
+        padding: 30px
+    }
 
+    .recTitle {
+        padding: 30px;
+    }
+
+    .notadiv {
+        display: inline;
+    }
+
+    .recInst {
+        padding: 18px;
+    }
 }

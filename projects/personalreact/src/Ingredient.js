@@ -38,7 +38,7 @@ class Ingredient extends Component {
 
             const mappedDrinks = this.state.drinks.map(cocktail => {
                 return (
-                    <Link to={{ pathname: `/recipe/${cocktail.idDrink}`, state: { ...cocktail } }} key={cocktail.idDrink}>
+                    <Link className='searchRes' to={{ pathname: `/recipe/${cocktail.idDrink}`, state: { ...cocktail } }} key={cocktail.idDrink}>
                         <h1>{cocktail.strDrink}</h1>
                         <button className='drinkBtn' style={{ backgroundImage: `url(${cocktail.strDrinkThumb})` }}></button>
                     </Link>
@@ -54,13 +54,15 @@ class Ingredient extends Component {
                                 this.getByAlcohol()
                             }
                         }} />
-                    
-                    {mappedDrinks}
+
+                    <div className='homesearch'>
+                        {mappedDrinks}
+                    </div>
                 </div>
             )
 
         } catch {
-           
+
             return (<div className='ingDiv'>
                 <input className='inInput' type="text" onChange={this.handleChange} placeholder="Search..."
                     onKeyPress={event => {
@@ -68,8 +70,8 @@ class Ingredient extends Component {
                             this.getByAlcohol()
                         }
                     }} />
-                
-                <p className = 'errmsg'> No results found.</p>
+
+                <p className='errmsg'> No results found.</p>
                 <p>Please check spelling and try again.</p>
             </div>
 

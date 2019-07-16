@@ -10,7 +10,7 @@ const Recipe = (props) => {
             <div className= 'recIng'>
                 <h1 className='recIng'>Ingredients:</h1>
                 {props.location.state.strMeasure1 && props.location.state.strIngredient1 ?
-                    <div>
+                    <div className = 'notadiv'>
                     <h2 className= 'recIngs'>{props.location.state.strMeasure1} {props.location.state.strIngredient1} </h2> 
                     <img className = 'ingimg' src ={`https://www.thecocktaildb.com/images/ingredients/${props.location.state.strIngredient1.toLowerCase()}.png`} />
                     </div> :

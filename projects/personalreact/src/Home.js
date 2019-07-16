@@ -34,7 +34,7 @@ class Home extends Component {
         try {
             const mappedDrinks = this.state.drinks.map(cocktail => {
                 return (
-                    <Link to={{ pathname: `/recipe/${cocktail.idDrink}`, state: { ...cocktail } }} key={cocktail.idDrink}>
+                    <Link className='searchRes' to={{ pathname: `/recipe/${cocktail.idDrink}`, state: { ...cocktail } }} key={cocktail.idDrink}>
                         <h1 className= 'homeRes'>{cocktail.strDrink}</h1>
                         <button className='drinkBtn' style={{ backgroundImage: `url(${cocktail.strDrinkThumb})` }}></button>
                     </Link>
@@ -50,8 +50,9 @@ class Home extends Component {
                             }
                         }} />
 
-                    
+                    <div className='homesearch'>
                     {mappedDrinks}
+                    </div>
                 </div>
             )
         } catch {
