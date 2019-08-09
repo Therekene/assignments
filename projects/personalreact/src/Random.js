@@ -24,8 +24,8 @@ class Random extends Component {
         const mappedDrinks = this.state.drinks.map(cocktail => {
             return(
                 <Link to={{pathname: `/recipe/${cocktail.idDrink}`, state: {...cocktail}}} key={cocktail.idDrink}>
-                    <h1>{cocktail.strDrink}</h1>
-                    <button className = 'drinkBtn' style = {{ backgroundImage : `url(${cocktail.strDrinkThumb})`}}></button>
+                    <h1 className='randoTitle' >{cocktail.strDrink}</h1>
+                    <button className = 'randoImg' style = {{ backgroundImage : `url(${cocktail.strDrinkThumb})`}}></button>
                 </Link>
             )
         })

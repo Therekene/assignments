@@ -29,9 +29,7 @@ class Ingredient extends Component {
     }
 
     render() {
-        console.log(this.state.booze)
-
-        console.log(this.state.drinks)
+        
 
 
         try {
@@ -72,7 +70,7 @@ class Ingredient extends Component {
                     }} />
 
                 <p className='errmsg'> No results found.</p>
-                <p>Please check spelling and try again.</p>
+                <p className='errmsg'>Please check spelling and try again.</p>
             </div>
 
             )

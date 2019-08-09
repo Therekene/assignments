@@ -62,12 +62,12 @@ class Home extends Component {
                     <input className='inInput' type="text" onChange={this.handleChange} placeholder="Search..."
                         onKeyPress={event => {
                             if (event.key === 'Enter') {
-                                this.getByAlcohol()
+                                this.getByName()
                             }
                         }} />
                     
                     <p className = 'errmsg'> No results found.</p>
-                <p>Please check spelling and try again.</p>
+                <p className = 'errmsg'>Please check spelling and try again.</p>
                 </div>
 
             )

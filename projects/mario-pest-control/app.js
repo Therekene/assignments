@@ -24,3 +24,8 @@ input3.addEventListener("input", function(event){
 function total (num1, num2, num3){
     document.getElementById("totalcoin").innerHTML = ( num1 + num2 + num3 )
 }
+
+
+
+
+

@@ -18,6 +18,15 @@
     background-color: white;
 }
 
+.randoImg {
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
 .rcpimg {
     height: 150px;
     width: 150px;
@@ -120,7 +129,7 @@ input {
     padding: 60px;
 }
 
-.pageDiv {
+body {
     background-image: radial-gradient(circle, rgb(167, 56, 205), #c13475, purple);
     min-height: 100vh;
     max-height: 10000vh;
@@ -173,34 +182,39 @@ input {
         width: 60vw;
         display: flex;
         justify-content: flex-start;
-        font-size: 70px;
+        font-size: 9vh;
         color: rgb(247, 242, 1);
+        
     }
     .martini-glass{
         position:absolute;
         background-image: url('./Image/imageedit_6_3100825224.png');
         width: 30vw;
         height: 40vh;
-        right:20vw;
-        top:5vh;
+        right:30vw;
+        top:2vh;
         background-size: contain;
         background-repeat: no-repeat;
     }
     .title-bartender{
-        font-size: 95px;
+        font-size: 12vh;
         width: 70vw;
-        line-height: 5px;
+        line-height: 20px;
         display: flex;
         justify-content: flex-end;
         
     }
 
     .recDiv {
-        display: inline;
+        display: inline block;
         justify-content: normal;
         text-align: left;
         align-content: left;
         padding: 60px;
+        margin-top: -300px;
+        
+        
+
     }
 
     /* .navDiv {
@@ -231,13 +245,25 @@ input {
     }
     .nmInput{
         position:absolute;
-        top: 40vh;
+        top: 45vh;
         right:20vw;
         width:60vw;
         border:5px solid purple;
         border-radius: 20px;
-        
+    }
 
+    .inInput{
+        position:absolute;
+        top: 45vh;
+        right:20vw;
+        width:60vw;
+        border:5px solid purple;
+        border-radius: 20px;
+    }
+
+    .errmsg {
+        color:whitesmoke;
+        top: 50vh;
     }
     .homesearch{
         top: 120vh;
@@ -264,14 +290,15 @@ input {
         
     }
     .rcpimg {
-        height: 300px;
-        width: 300px;
+        height: 400px;
+        width: 500px;
         float: left;
-        padding: 30px
+        padding: 30px;
+
     }
 
     .recTitle {
-        padding: 30px;
+        padding: 10px;
     }
 
     .notadiv {
@@ -281,4 +308,18 @@ input {
     .recInst {
         padding: 18px;
     }
+
+    .recTitle {
+        font-size: 55px;
+    }
+    .randoImg {
+        height: 400px;
+        width: 500px;
+        padding: 30px;
+    }
+    .randoDiv {
+        font-size: 70px;
+        margin-top: -200px
+    }
+    
 }
